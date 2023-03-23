@@ -12,6 +12,8 @@ header { position: relative;
    color: white;
    background-color: #C8A35F;
 }
+header a { color: #ffffff;
+text-decoration: none;}
 .lang { position: absolute;
    top: 16px; 
    left: 20%;
@@ -105,11 +107,12 @@ main header { position: relative;
    background-image: url(img/background.png);
    height: 620px;
 }
+.rectangle { position: absolute;
+top: 120px;}
 .trucking { position: absolute;
-   width: 800px;
-   height: 200px;
+   width: 80%;
+   height: 245px;
    top: 200px;
-   padding: 45px;
    top: 50%;
    left: 50%;
    margin-right: -50%;
@@ -120,16 +123,18 @@ main header { position: relative;
    justify-content: center;
 }
 h1 { position: absolute;
-   top: 45px;
    font-size: 62px;
    line-height: 72px;
+   padding: 45px;
+   text-align: center;
 }
 .trucking p { position: absolute;
-   width: 720px;
-   top: 149px;
+   width: 98%;
+   padding-top: 149px;
    text-align: center;
    font-size: 18px;
    line-height: 28.48px;
+   padding-top: 199px;
 }
 .section1 { position: relative;
    color: white; 
@@ -143,7 +148,7 @@ section a { color: white;
    z-index: 1;
 }
 .rightgrey img { position: absolute;
-   width: 40%;
+   width: 25%;
    left: 75%;
    height: 561px;
    padding: none;
@@ -153,9 +158,7 @@ section article { position: relative;
    z-index: 3;
    left: 13%;
 }
-article img { position: absolute;
-   top: 120px;
-}
+
 article h2 { position: absolute;
    top: 166px;
    width: 445px;
@@ -193,9 +196,184 @@ article .link {position: absolute;
    height: 266px;
    top: 166px;
    left: 45%;
-
    z-index: 2;
 }
-.map { background-image: url(img/map.png);
+.arrowright { position: absolute;
+   top: 156px;
+   left: 80%;
+   width: 161px;
+   height: 20px;
+   text-align: left;
+   z-index: 3;
+}
+.arrowright a, .arrowleft a { color: #C8A35F;}
+.arrowright img { position: absolute;
+   top: -2px;
+   left: 86px;
+}
+.arrowleft { position: absolute;
+   top: 430px;
+   left: 80%;
+   width: 161px;
+   height: 20px;
+   text-align: right;
+   z-index: 3;
+}
+.arrowleft img { position: absolute;
+   top: -2px;
+   right: 86px;
+}
+.section2 { position: relative;
+   top: 681px;
+   color: white;
+}
+.avia { position: absolute;
+   top: 263px;
+   width: 60%;
+   margin: auto;
+   height: 361px;
+   border-collapse: collapse;
+   background-color: #393F47;
+}
+.avia-td { 
+   text-align: center;
+   width: auto;
+   height: 180px;
+   background-color: #393F47;
+   border: 1px solid #2F343A;
+   padding: 0px;
+}
+.fc {
+   padding-top: 30px;
+}
+.section3 {
+   position: relative;
+   top: 1385px;
+   color: white;
+}
+.about-comp {
+   width: 445px;
+}
+.table2 { position: absolute;
+   top: 120px;
+   left: 55%;
+   width: 40%;
+   margin-right: 0px;
+   border-collapse: collapse;
+   z-index: 2;
+}
+.table2 img { padding: 0px;
+   width: 200px;
+   height: 160px;
+}
+.td2 { 
+   width: 200px;
+   height: 160px;
+   border: 1px solid #C8A35F;
+   background-color: #ffffff;
+   color: black;
+   text-align: center;
+}
+.tablenumber { display: block;
+   font-size: 64px;
+   line-height: 35px;
+   font-weight: 700;
+   padding-bottom: 0px;
+   top: 23px;
+}
+.under-number { 
+   top: 92px;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 20px;
+   padding-bottom: 15px;
+   padding-top: 20px;
+}
+.un-under-number { 
+   top: 124px;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 0px;
+   padding-bottom: 0px;
+}
+.backgrey3 { position: absolute;
+   top: 80px;
+   left: 40%;
+   width: 410px;
+   height: 482px;
+   background-color: #393F47;
+}
+.map { position: absolute;
+   background-image: url(img/map.png);
+   width: 100%; 
+   top: 2872px;
+   height: 450px;
+}
+footer { position: relative;
    width: 100%;
+   height: 161px;
+   top: 2621px;
+   color: #ffffff;
+   background-color: #C8A35F;
+}
+footer a { 
+   color: #ffffff;
+   text-decoration: none;
+}
+.logotype2 { position: absolute;
+   width: 20%;
+   height: 46px;
+   top: 65px;
+   left: 10%;
+   border-right: 1px solid #F2F2F2;
+   margin: 1px;
+}
+
+#bl2 { position: absolute;
+   top: 10.86px;
+}
+#w1 { position: absolute;
+}
+#bl1 { position: absolute;
+   top: 5.17px;
+   left: 7.53px;
+}
+#w2 { position: absolute;
+   top: 10.88px;
+   left: 5.17px;
+}
+.comp2 { position: absolute;
+   top: -20px;
+   left: 50px;
+   width: 116px;
+   height: 28px;
+   
+   font-size: 24px;
+}
+.company { position: absolute;
+   margin-bottom: 0%;
+   padding-right: 30px;
+}
+.tagline { position: absolute;
+   font-size: 11px;
+   top: 40px;
+   left: 3px;
+}
+.adress { position: absolute;
+   display: inline-block;
+   top: 50px;
+   left: 33%;
+}
+.mailfooter {
+   color: black;
+}
+.numbers { position: absolute;
+   top: 65px;
+   left: 70%;
+}
+.numbers a { display: block;}
+.end { position: absolute;
+   top: 50px;
+   left: 87%;
+   color: black;
 }
